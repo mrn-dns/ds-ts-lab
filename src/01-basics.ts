@@ -1,7 +1,18 @@
 interface Friend {
     name: string;
     phone: string;
-    age: number
+    age: number;
+}
+
+interface Contact {
+    email: string;
+    extension: number;
+}
+  
+interface Colleague {
+    name: string;
+    department: string;
+    contact: Contact;
 }
 
 // (Optional) Change the names below to your friends.
